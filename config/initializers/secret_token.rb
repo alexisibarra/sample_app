@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-SampleApp::Application.config.secret_key_base = secure_token if you're sharing your code publicly.
+SampleApp::Application.config.secret_key_base = secure_token 
